@@ -1,0 +1,12 @@
+{
+    "name": "omni-sound",
+    "version": "1.0.0",
+    "engines": {
+        "node": ">=16 <19"
+    },
+    "scripts": {
+        "start": "cd frontend && npm start",
+        "prebuild": "cd frontend && npm run build",
+        "build": "cd frontend && npm run build"
+    }
+}

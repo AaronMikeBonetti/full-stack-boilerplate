@@ -1,0 +1,59 @@
+.home_page{
+  .hero {
+    background-color: #f80202;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  
+    .hero-content {
+      max-width: 800px;
+      margin: 0 auto;
+  
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+  
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+  
+  .featured-music {
+    padding: 40px 0;
+    text-align: center;
+  
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    .featured-music-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      justify-items: center;
+  
+      .music-item {
+        max-width: 200px;
+  
+        img {
+          width: 100%;
+          height: auto;
+          border-radius: 8px;
+        }
+  
+        h3 {
+          font-size: 18px;
+          margin: 10px 0;
+        }
+  
+        p {
+          color: #666;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
